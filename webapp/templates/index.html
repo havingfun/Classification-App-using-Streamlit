@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classifier</title>
+</head>
+<body>
+    <div>
+        <form method="POST" action="/predict">
+          Age:<input type="text" name="age"></input><br/>
+          Salary<input type="text" name="salary"></input><br/>
+          <button>Reset</button>
+          <button>Submit</button>
+        </form>
+    </div>
+    <div>
+        Age: {{age}}
+        Salary: {{salary}}
+        Click: {{output}}
+    </div>
+</body>
+</html>
