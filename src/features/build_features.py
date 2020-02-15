@@ -4,7 +4,7 @@ import pandas as pd
 def build_features():
     # Importing the dataset
     X = pd.read_csv('../data/clean/X.csv')
-    y = pd.read_csv('../data/clean/Y.csv')
+    y = pd.read_csv('../data/clean/y.csv')
 
     # Applying features to the cleaned dataset
 
