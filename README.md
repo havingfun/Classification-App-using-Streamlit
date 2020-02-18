@@ -2,19 +2,19 @@
 A DS app structure inspired by CookieCutter with Streamlit for fast UI iteration and Flask for app
 
 ## How to Run
-###Install the requirements
+Install the requirements
 ```
 pip install -r requirements
 ```
-###Go to the streamlit directory
+Go to the streamlit directory
 ```
 cd streamlit
 ```
-###Run streamlit app
+Run streamlit app
 ```
 streamlit run app.py
 ```
-###Incase your firewall is enabled, you will have to allow your system to open default streamlit port 8501 by doing
+Incase your firewall is enabled, you will have to allow your system to open default streamlit port 8501 by doing
 ```
 ufw allow 8501
 ```
