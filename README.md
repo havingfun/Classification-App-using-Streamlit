@@ -2,6 +2,19 @@
 A DS app structure inspired by CookieCutter with Streamlit for fast UI iteration and Flask for app
 
 ## How to Run
+
+## With Docker
+Build docker image
+```
+docker build . -t classificationapp:latest
+```
+
+Run build image
+```
+docker run -p 8501:8501 classificationapp
+```
+
+## Without Docker
 Install the requirements
 ```
 pip install -r requirements.txt
