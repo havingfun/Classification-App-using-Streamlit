@@ -1,6 +1,8 @@
 # Classification-App-Structure-with-Flask-Streamlit
 A DS app structure inspired by CookieCutter with Streamlit for fast UI iteration and Flask for app
 
+![Screenshot](https://raw.githubusercontent.com/havingfun/Classification-App-Structure-with-Flask-Streamlit/master/references/prediction.png)
+
 ## How to Run
 
 ## With Docker
