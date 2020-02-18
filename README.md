@@ -4,7 +4,7 @@ A DS app structure inspired by CookieCutter with Streamlit for fast UI iteration
 ## How to Run
 Install the requirements
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 Go to the streamlit directory
 ```
