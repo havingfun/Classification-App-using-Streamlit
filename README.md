@@ -8,10 +8,13 @@ Build docker image
 ```
 docker build . -t classificationapp:latest
 ```
-
 Run build image
 ```
 docker run -p 8501:8501 classificationapp
+```
+Project will be running on
+```
+http://localhost:8501/
 ```
 
 ## Without Docker
@@ -27,7 +30,12 @@ Run streamlit app
 ```
 streamlit run app.py
 ```
+Project will be running on
+```
+http://localhost:8501/
+```
 Incase your firewall is enabled, you will have to allow your system to open default streamlit port 8501 by doing
 ```
 ufw allow 8501
 ```
+
